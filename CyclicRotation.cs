@@ -12,6 +12,8 @@ namespace codility{
             for(int i = 0; i < N; i++)
                 A[i] = random.Next(-1000, 1000);
             
+            Console.WriteLine("=======================");
+            Console.WriteLine("Cyclic Rotation Example");
             Console.WriteLine("A: " + A.Select(num => num.ToString()).Aggregate((first, second) => first + ", " + second));
             Console.WriteLine("K: " + K);
             var R = new CyclicRotation().Solution(A, K);
