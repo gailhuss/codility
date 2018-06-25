@@ -8,6 +8,7 @@ namespace codility
         {
             BinaryGap.Test();
             CyclicRotation.Test();
+            OddOccurrencesInArray.Test();
         }
     }
 }
