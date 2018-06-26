@@ -6,9 +6,11 @@ namespace codility
     {
         static void Main(string[] args)
         {
-            BinaryGap.Test();
-            CyclicRotation.Test();
-            OddOccurrencesInArray.Test();
+            // BinaryGap.Test();
+            // CyclicRotation.Test();
+            // OddOccurrencesInArray.Test();
+            // TapeEquilibrium.Test();
+            PermCheck.Test();
         }
     }
 }
