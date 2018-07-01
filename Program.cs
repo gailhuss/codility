@@ -11,6 +11,8 @@ namespace codility
             OddOccurrencesInArray.Test();
             TapeEquilibrium.Test();
             PermCheck.Test();
+            FrogRiverOne.Test();
+            MissingInteger.Test();
         }
     }
 }
